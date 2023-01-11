@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE393F5D296E897D00B4EA10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F5C296E897D00B4EA10 /* AppDelegate.swift */; };
+		EE393F5F296E897D00B4EA10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F5E296E897D00B4EA10 /* SceneDelegate.swift */; };
+		EE393F61296E897D00B4EA10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F60296E897D00B4EA10 /* ViewController.swift */; };
+		EE393F64296E897D00B4EA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE393F62296E897D00B4EA10 /* Main.storyboard */; };
+		EE393F66296E897E00B4EA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE393F65296E897E00B4EA10 /* Assets.xcassets */; };
+		EE393F69296E897E00B4EA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE393F67296E897E00B4EA10 /* LaunchScreen.storyboard */; };
+		EE393F74296E897E00B4EA10 /* upbit_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F73296E897E00B4EA10 /* upbit_APITests.swift */; };
+		EE393F7E296E897E00B4EA10 /* upbit_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F7D296E897E00B4EA10 /* upbit_APIUITests.swift */; };
+		EE393F80296E897E00B4EA10 /* upbit_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F7F296E897E00B4EA10 /* upbit_APIUITestsLaunchTests.swift */; };
+		EE393F94296E89F900B4EA10 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F93296E89F900B4EA10 /* CoinManager.swift */; };
+		EE393F96296E94E400B4EA10 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F95296E94E400B4EA10 /* CoinModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE393F70296E897E00B4EA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE393F51296E897D00B4EA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE393F58296E897D00B4EA10;
+			remoteInfo = upbit_API;
+		};
+		EE393F7A296E897E00B4EA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE393F51296E897D00B4EA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE393F58296E897D00B4EA10;
+			remoteInfo = upbit_API;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE393F59296E897D00B4EA10 /* upbit_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upbit_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE393F5C296E897D00B4EA10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE393F5E296E897D00B4EA10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE393F60296E897D00B4EA10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE393F63296E897D00B4EA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE393F65296E897E00B4EA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE393F68296E897E00B4EA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE393F6A296E897E00B4EA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE393F6F296E897E00B4EA10 /* upbit_APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upbit_APITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE393F73296E897E00B4EA10 /* upbit_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upbit_APITests.swift; sourceTree = "<group>"; };
+		EE393F79296E897E00B4EA10 /* upbit_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = upbit_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE393F7D296E897E00B4EA10 /* upbit_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upbit_APIUITests.swift; sourceTree = "<group>"; };
+		EE393F7F296E897E00B4EA10 /* upbit_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upbit_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE393F93296E89F900B4EA10 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		EE393F95296E94E400B4EA10 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE393F56296E897D00B4EA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE393F6C296E897E00B4EA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE393F76296E897E00B4EA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE393F50296E897D00B4EA10 = {
+			isa = PBXGroup;
+			children = (
+				EE393F5B296E897D00B4EA10 /* upbit_API */,
+				EE393F72296E897E00B4EA10 /* upbit_APITests */,
+				EE393F7C296E897E00B4EA10 /* upbit_APIUITests */,
+				EE393F5A296E897D00B4EA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE393F5A296E897D00B4EA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F59296E897D00B4EA10 /* upbit_API.app */,
+				EE393F6F296E897E00B4EA10 /* upbit_APITests.xctest */,
+				EE393F79296E897E00B4EA10 /* upbit_APIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE393F5B296E897D00B4EA10 /* upbit_API */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F5C296E897D00B4EA10 /* AppDelegate.swift */,
+				EE393F5E296E897D00B4EA10 /* SceneDelegate.swift */,
+				EE393F8E296E89A200B4EA10 /* Model */,
+				EE393F8C296E898600B4EA10 /* View */,
+				EE393F8D296E899500B4EA10 /* Controller */,
+				EE393F65296E897E00B4EA10 /* Assets.xcassets */,
+				EE393F67296E897E00B4EA10 /* LaunchScreen.storyboard */,
+				EE393F6A296E897E00B4EA10 /* Info.plist */,
+			);
+			path = upbit_API;
+			sourceTree = "<group>";
+		};
+		EE393F72296E897E00B4EA10 /* upbit_APITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F73296E897E00B4EA10 /* upbit_APITests.swift */,
+			);
+			path = upbit_APITests;
+			sourceTree = "<group>";
+		};
+		EE393F7C296E897E00B4EA10 /* upbit_APIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F7D296E897E00B4EA10 /* upbit_APIUITests.swift */,
+				EE393F7F296E897E00B4EA10 /* upbit_APIUITestsLaunchTests.swift */,
+			);
+			path = upbit_APIUITests;
+			sourceTree = "<group>";
+		};
+		EE393F8C296E898600B4EA10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F62296E897D00B4EA10 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE393F8D296E899500B4EA10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F60296E897D00B4EA10 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE393F8E296E89A200B4EA10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE393F93296E89F900B4EA10 /* CoinManager.swift */,
+				EE393F95296E94E400B4EA10 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE393F58296E897D00B4EA10 /* upbit_API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE393F83296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_API" */;
+			buildPhases = (
+				EE393F55296E897D00B4EA10 /* Sources */,
+				EE393F56296E897D00B4EA10 /* Frameworks */,
+				EE393F57296E897D00B4EA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = upbit_API;
+			productName = upbit_API;
+			productReference = EE393F59296E897D00B4EA10 /* upbit_API.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE393F6E296E897E00B4EA10 /* upbit_APITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE393F86296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_APITests" */;
+			buildPhases = (
+				EE393F6B296E897E00B4EA10 /* Sources */,
+				EE393F6C296E897E00B4EA10 /* Frameworks */,
+				EE393F6D296E897E00B4EA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE393F71296E897E00B4EA10 /* PBXTargetDependency */,
+			);
+			name = upbit_APITests;
+			productName = upbit_APITests;
+			productReference = EE393F6F296E897E00B4EA10 /* upbit_APITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE393F78296E897E00B4EA10 /* upbit_APIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE393F89296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_APIUITests" */;
+			buildPhases = (
+				EE393F75296E897E00B4EA10 /* Sources */,
+				EE393F76296E897E00B4EA10 /* Frameworks */,
+				EE393F77296E897E00B4EA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE393F7B296E897E00B4EA10 /* PBXTargetDependency */,
+			);
+			name = upbit_APIUITests;
+			productName = upbit_APIUITests;
+			productReference = EE393F79296E897E00B4EA10 /* upbit_APIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE393F51296E897D00B4EA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EE393F58296E897D00B4EA10 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EE393F6E296E897E00B4EA10 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EE393F58296E897D00B4EA10;
+					};
+					EE393F78296E897E00B4EA10 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EE393F58296E897D00B4EA10;
+					};
+				};
+			};
+			buildConfigurationList = EE393F54296E897D00B4EA10 /* Build configuration list for PBXProject "upbit_API" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE393F50296E897D00B4EA10;
+			productRefGroup = EE393F5A296E897D00B4EA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE393F58296E897D00B4EA10 /* upbit_API */,
+				EE393F6E296E897E00B4EA10 /* upbit_APITests */,
+				EE393F78296E897E00B4EA10 /* upbit_APIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE393F57296E897D00B4EA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE393F69296E897E00B4EA10 /* LaunchScreen.storyboard in Resources */,
+				EE393F66296E897E00B4EA10 /* Assets.xcassets in Resources */,
+				EE393F64296E897D00B4EA10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE393F6D296E897E00B4EA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE393F77296E897E00B4EA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE393F55296E897D00B4EA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE393F94296E89F900B4EA10 /* CoinManager.swift in Sources */,
+				EE393F61296E897D00B4EA10 /* ViewController.swift in Sources */,
+				EE393F96296E94E400B4EA10 /* CoinModel.swift in Sources */,
+				EE393F5D296E897D00B4EA10 /* AppDelegate.swift in Sources */,
+				EE393F5F296E897D00B4EA10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE393F6B296E897E00B4EA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE393F74296E897E00B4EA10 /* upbit_APITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE393F75296E897E00B4EA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE393F80296E897E00B4EA10 /* upbit_APIUITestsLaunchTests.swift in Sources */,
+				EE393F7E296E897E00B4EA10 /* upbit_APIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE393F71296E897E00B4EA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE393F58296E897D00B4EA10 /* upbit_API */;
+			targetProxy = EE393F70296E897E00B4EA10 /* PBXContainerItemProxy */;
+		};
+		EE393F7B296E897E00B4EA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE393F58296E897D00B4EA10 /* upbit_API */;
+			targetProxy = EE393F7A296E897E00B4EA10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE393F62296E897D00B4EA10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE393F63296E897D00B4EA10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE393F67296E897E00B4EA10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE393F68296E897E00B4EA10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE393F81296E897E00B4EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE393F82296E897E00B4EA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE393F84296E897E00B4EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = upbit_API/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yong.upbit-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE393F85296E897E00B4EA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = upbit_API/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yong.upbit-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE393F87296E897E00B4EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yong.upbit-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/upbit_API.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/upbit_API";
+			};
+			name = Debug;
+		};
+		EE393F88296E897E00B4EA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yong.upbit-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/upbit_API.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/upbit_API";
+			};
+			name = Release;
+		};
+		EE393F8A296E897E00B4EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yong.upbit-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = upbit_API;
+			};
+			name = Debug;
+		};
+		EE393F8B296E897E00B4EA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yong.upbit-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = upbit_API;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE393F54296E897D00B4EA10 /* Build configuration list for PBXProject "upbit_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE393F81296E897E00B4EA10 /* Debug */,
+				EE393F82296E897E00B4EA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE393F83296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE393F84296E897E00B4EA10 /* Debug */,
+				EE393F85296E897E00B4EA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE393F86296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_APITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE393F87296E897E00B4EA10 /* Debug */,
+				EE393F88296E897E00B4EA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE393F89296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_APIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE393F8A296E897E00B4EA10 /* Debug */,
+				EE393F8B296E897E00B4EA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE393F51296E897D00B4EA10 /* Project object */;
+}
