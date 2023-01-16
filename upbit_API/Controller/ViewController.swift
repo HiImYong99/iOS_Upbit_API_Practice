@@ -9,7 +9,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var valuePrice: UILabel!
     @IBOutlet weak var buyName: UILabel!
     
-    
     var coin: String?
     let coinArr = ["KRW-BTC", "KRW-ETH","KRW-XRP","KRW-ETC","KRW-SOL"]
     var coinManager = CoinManager()

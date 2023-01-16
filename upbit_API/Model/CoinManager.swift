@@ -4,6 +4,7 @@ protocol CoinManagerDelegate {
 }
 
 import Foundation
+
 struct CoinManager {
     
     let coinURL = "https://api.upbit.com/v1/ticker?markets="
