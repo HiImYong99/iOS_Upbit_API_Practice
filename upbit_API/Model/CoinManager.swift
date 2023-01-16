@@ -4,12 +4,9 @@ protocol CoinManagerDelegate {
 }
 
 import Foundation
-
-
 struct CoinManager {
     
     let coinURL = "https://api.upbit.com/v1/ticker?markets="
-    
     var delegate: CoinManagerDelegate?
     
     func fetchCoin(coinName: String){
@@ -44,12 +41,10 @@ struct CoinManager {
             let price = decodeData[0].trade_price
             let coin = CoinData(market: market, trade_price: price)
             return coin
-            
         } catch {
             delegate?.error(error: error)
             return nil
         }
-        
     }
     
 }
