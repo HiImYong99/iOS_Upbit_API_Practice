@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27201D0E611531ABE0F48085 /* Pods_upbit_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED04C4D52C9932862A951EA /* Pods_upbit_API.framework */; };
+		2D3D6554835182FCE5530CE3 /* Pods_upbit_API_upbit_APIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF7A129A5DFF0AC61620A79 /* Pods_upbit_API_upbit_APIUITests.framework */; };
+		DC4540CA22B41C0F6EB0DEF5 /* Pods_upbit_APITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9FCDED85C9934B99D9A371 /* Pods_upbit_APITests.framework */; };
+		EE163A5129781B2F00EA893B /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE163A5029781B2F00EA893B /* MainScreenController.swift */; };
+		EE163A5329781B3F00EA893B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE163A5229781B3F00EA893B /* LoginController.swift */; };
+		EE163A5529781B4A00EA893B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE163A5429781B4A00EA893B /* RegisterController.swift */; };
+		EE163A5729781FEF00EA893B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE163A5629781FEF00EA893B /* GoogleService-Info.plist */; };
+		EE163A59297821D200EA893B /* Identy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE163A58297821D200EA893B /* Identy.swift */; };
 		EE393F5D296E897D00B4EA10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F5C296E897D00B4EA10 /* AppDelegate.swift */; };
 		EE393F5F296E897D00B4EA10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F5E296E897D00B4EA10 /* SceneDelegate.swift */; };
-		EE393F61296E897D00B4EA10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F60296E897D00B4EA10 /* ViewController.swift */; };
+		EE393F61296E897D00B4EA10 /* TradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE393F60296E897D00B4EA10 /* TradeController.swift */; };
 		EE393F64296E897D00B4EA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE393F62296E897D00B4EA10 /* Main.storyboard */; };
 		EE393F66296E897E00B4EA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE393F65296E897E00B4EA10 /* Assets.xcassets */; };
 		EE393F69296E897E00B4EA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE393F67296E897E00B4EA10 /* LaunchScreen.storyboard */; };
@@ -38,10 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A8EC51955BBDD4448175BF /* Pods-upbit_API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upbit_API.release.xcconfig"; path = "Target Support Files/Pods-upbit_API/Pods-upbit_API.release.xcconfig"; sourceTree = "<group>"; };
+		19225962E3D7169B8A0327CA /* Pods-upbit_API-upbit_APIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upbit_API-upbit_APIUITests.debug.xcconfig"; path = "Target Support Files/Pods-upbit_API-upbit_APIUITests/Pods-upbit_API-upbit_APIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FF7A129A5DFF0AC61620A79 /* Pods_upbit_API_upbit_APIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upbit_API_upbit_APIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D660A09E1D17FF194DEC2D5 /* Pods-upbit_API-upbit_APIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upbit_API-upbit_APIUITests.release.xcconfig"; path = "Target Support Files/Pods-upbit_API-upbit_APIUITests/Pods-upbit_API-upbit_APIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D9FCDED85C9934B99D9A371 /* Pods_upbit_APITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upbit_APITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BC660AE3FB33B0994ECCD7 /* Pods-upbit_APITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upbit_APITests.debug.xcconfig"; path = "Target Support Files/Pods-upbit_APITests/Pods-upbit_APITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED04C4D52C9932862A951EA /* Pods_upbit_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_upbit_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4C6A0FFBBFFC8206607DB3 /* Pods-upbit_API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upbit_API.debug.xcconfig"; path = "Target Support Files/Pods-upbit_API/Pods-upbit_API.debug.xcconfig"; sourceTree = "<group>"; };
+		EE163A5029781B2F00EA893B /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		EE163A5229781B3F00EA893B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		EE163A5429781B4A00EA893B /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		EE163A5629781FEF00EA893B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE163A58297821D200EA893B /* Identy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identy.swift; sourceTree = "<group>"; };
 		EE393F59296E897D00B4EA10 /* upbit_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upbit_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE393F5C296E897D00B4EA10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE393F5E296E897D00B4EA10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE393F60296E897D00B4EA10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE393F60296E897D00B4EA10 /* TradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeController.swift; sourceTree = "<group>"; };
 		EE393F63296E897D00B4EA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE393F65296E897E00B4EA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE393F68296E897E00B4EA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +74,7 @@
 		EE393F7F296E897E00B4EA10 /* upbit_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upbit_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EE393F93296E89F900B4EA10 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		EE393F95296E94E400B4EA10 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		FDDB2926AD1C73DD8858FD10 /* Pods-upbit_APITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-upbit_APITests.release.xcconfig"; path = "Target Support Files/Pods-upbit_APITests/Pods-upbit_APITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27201D0E611531ABE0F48085 /* Pods_upbit_API.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4540CA22B41C0F6EB0DEF5 /* Pods_upbit_APITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3D6554835182FCE5530CE3 /* Pods_upbit_API_upbit_APIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12441655605DE2339E6CCCBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF4C6A0FFBBFFC8206607DB3 /* Pods-upbit_API.debug.xcconfig */,
+				04A8EC51955BBDD4448175BF /* Pods-upbit_API.release.xcconfig */,
+				19225962E3D7169B8A0327CA /* Pods-upbit_API-upbit_APIUITests.debug.xcconfig */,
+				2D660A09E1D17FF194DEC2D5 /* Pods-upbit_API-upbit_APIUITests.release.xcconfig */,
+				70BC660AE3FB33B0994ECCD7 /* Pods-upbit_APITests.debug.xcconfig */,
+				FDDB2926AD1C73DD8858FD10 /* Pods-upbit_APITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E505C60E8796491C57178E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED04C4D52C9932862A951EA /* Pods_upbit_API.framework */,
+				1FF7A129A5DFF0AC61620A79 /* Pods_upbit_API_upbit_APIUITests.framework */,
+				4D9FCDED85C9934B99D9A371 /* Pods_upbit_APITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE393F50296E897D00B4EA10 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +135,8 @@
 				EE393F72296E897E00B4EA10 /* upbit_APITests */,
 				EE393F7C296E897E00B4EA10 /* upbit_APIUITests */,
 				EE393F5A296E897D00B4EA10 /* Products */,
+				12441655605DE2339E6CCCBF /* Pods */,
+				5E505C60E8796491C57178E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +154,14 @@
 			isa = PBXGroup;
 			children = (
 				EE393F5C296E897D00B4EA10 /* AppDelegate.swift */,
+				EE163A58297821D200EA893B /* Identy.swift */,
 				EE393F5E296E897D00B4EA10 /* SceneDelegate.swift */,
 				EE393F8E296E89A200B4EA10 /* Model */,
 				EE393F8C296E898600B4EA10 /* View */,
 				EE393F8D296E899500B4EA10 /* Controller */,
 				EE393F65296E897E00B4EA10 /* Assets.xcassets */,
 				EE393F67296E897E00B4EA10 /* LaunchScreen.storyboard */,
+				EE163A5629781FEF00EA893B /* GoogleService-Info.plist */,
 				EE393F6A296E897E00B4EA10 /* Info.plist */,
 			);
 			path = upbit_API;
@@ -143,7 +195,10 @@
 		EE393F8D296E899500B4EA10 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EE393F60296E897D00B4EA10 /* ViewController.swift */,
+				EE163A5029781B2F00EA893B /* MainScreenController.swift */,
+				EE163A5229781B3F00EA893B /* LoginController.swift */,
+				EE163A5429781B4A00EA893B /* RegisterController.swift */,
+				EE393F60296E897D00B4EA10 /* TradeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE393F83296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_API" */;
 			buildPhases = (
+				18C77E77E69561B2F6477204 /* [CP] Check Pods Manifest.lock */,
 				EE393F55296E897D00B4EA10 /* Sources */,
 				EE393F56296E897D00B4EA10 /* Frameworks */,
 				EE393F57296E897D00B4EA10 /* Resources */,
+				7FB8F6BC5E996AB39731E100 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE393F86296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_APITests" */;
 			buildPhases = (
+				5EF3B26C0574F99244C41446 /* [CP] Check Pods Manifest.lock */,
 				EE393F6B296E897E00B4EA10 /* Sources */,
 				EE393F6C296E897E00B4EA10 /* Frameworks */,
 				EE393F6D296E897E00B4EA10 /* Resources */,
+				ABD0C931E7093C5394F2C286 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE393F89296E897E00B4EA10 /* Build configuration list for PBXNativeTarget "upbit_APIUITests" */;
 			buildPhases = (
+				3783A862127001E075BEE6E8 /* [CP] Check Pods Manifest.lock */,
 				EE393F75296E897E00B4EA10 /* Sources */,
 				EE393F76296E897E00B4EA10 /* Frameworks */,
 				EE393F77296E897E00B4EA10 /* Resources */,
+				F01BEAA683834B5831C6064D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE393F69296E897E00B4EA10 /* LaunchScreen.storyboard in Resources */,
+				EE163A5729781FEF00EA893B /* GoogleService-Info.plist in Resources */,
 				EE393F66296E897E00B4EA10 /* Assets.xcassets in Resources */,
 				EE393F64296E897D00B4EA10 /* Main.storyboard in Resources */,
 			);
@@ -283,16 +345,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18C77E77E69561B2F6477204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-upbit_API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3783A862127001E075BEE6E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-upbit_API-upbit_APIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF3B26C0574F99244C41446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-upbit_APITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB8F6BC5E996AB39731E100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upbit_API/Pods-upbit_API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upbit_API/Pods-upbit_API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-upbit_API/Pods-upbit_API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD0C931E7093C5394F2C286 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upbit_APITests/Pods-upbit_APITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upbit_APITests/Pods-upbit_APITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-upbit_APITests/Pods-upbit_APITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01BEAA683834B5831C6064D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upbit_API-upbit_APIUITests/Pods-upbit_API-upbit_APIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-upbit_API-upbit_APIUITests/Pods-upbit_API-upbit_APIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-upbit_API-upbit_APIUITests/Pods-upbit_API-upbit_APIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE393F55296E897D00B4EA10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE393F94296E89F900B4EA10 /* CoinManager.swift in Sources */,
-				EE393F61296E897D00B4EA10 /* ViewController.swift in Sources */,
+				EE393F61296E897D00B4EA10 /* TradeController.swift in Sources */,
+				EE163A5129781B2F00EA893B /* MainScreenController.swift in Sources */,
 				EE393F96296E94E400B4EA10 /* CoinModel.swift in Sources */,
+				EE163A5529781B4A00EA893B /* RegisterController.swift in Sources */,
 				EE393F5D296E897D00B4EA10 /* AppDelegate.swift in Sources */,
 				EE393F5F296E897D00B4EA10 /* SceneDelegate.swift in Sources */,
+				EE163A5329781B3F00EA893B /* LoginController.swift in Sources */,
+				EE163A59297821D200EA893B /* Identy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +650,7 @@
 		};
 		EE393F84296E897E00B4EA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4C6A0FFBBFFC8206607DB3 /* Pods-upbit_API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +678,7 @@
 		};
 		EE393F85296E897E00B4EA10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A8EC51955BBDD4448175BF /* Pods-upbit_API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -518,6 +706,7 @@
 		};
 		EE393F87296E897E00B4EA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BC660AE3FB33B0994ECCD7 /* Pods-upbit_APITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +726,7 @@
 		};
 		EE393F88296E897E00B4EA10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDB2926AD1C73DD8858FD10 /* Pods-upbit_APITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +746,7 @@
 		};
 		EE393F8A296E897E00B4EA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19225962E3D7169B8A0327CA /* Pods-upbit_API-upbit_APIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +764,7 @@
 		};
 		EE393F8B296E897E00B4EA10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D660A09E1D17FF194DEC2D5 /* Pods-upbit_API-upbit_APIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class TradeController: UIViewController {
     
     @IBOutlet weak var coinName: UILabel!
     @IBOutlet weak var coinPrice: UILabel!
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
         coinManager.delegate = self
         coinList.delegate = self
         coinList.dataSource = self
@@ -45,9 +46,15 @@ class ViewController: UIViewController {
         avgPrice.text = "매수평균가: 0원"
     }
     
+    @IBAction func logOutPressed(_ sender: UIBarButtonItem) { self.navigationController?.popToRootViewController(animated: true)
+    }
+    
+    
+    
+    
 }
 //MARK: - UIPickerViewDataSource
-extension ViewController: UIPickerViewDataSource {
+extension TradeController: UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -60,7 +67,7 @@ extension ViewController: UIPickerViewDataSource {
 
 
 //MARK: - UIPickerViewDelegate
-extension ViewController: UIPickerViewDelegate {
+extension TradeController: UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return coinArr[row]
@@ -75,7 +82,7 @@ extension ViewController: UIPickerViewDelegate {
 
 
 //MARK: - CoinManagerDelegate
-extension ViewController: CoinManagerDelegate{
+extension TradeController: CoinManagerDelegate{
     
     func didupdate(data: CoinData) {
         DispatchQueue.main.async {
